@@ -1,0 +1,128 @@
+/*colors
+ #36174D = DARK PURPLE BACKROUND
+ #F3EFFE = WHITE TEXT
+ #6f36bc = purple main content
+ #ff4778 = Pink Accents
+
+*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #36174D;
+    color: #F3EFFE;
+}
+
+.flexwrapper{
+    display: flex;
+    flex-direction: row;
+    height: 95%;
+    margin: 10px 10px;
+}
+
+.section{
+    border-radius: 8px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: #6f36bc;
+    flex-grow: 1;
+    width:50%;
+    height: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section form{
+    width:50%;
+    margin:10px 10px;
+    align-items: center;
+    justify-items: center;
+}
+.cards{
+    width: 75%;
+    height: 90%;
+    border-radius: 10px;
+    background-color:#ff4778;
+    color:#F3EFFE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10px 10px;
+    justify-items: center;
+    justify-content: space-evenly;
+    
+}
+.cards img{
+    border-radius: 10px;
+    flex-shrink: 1;
+    max-width: 400px;
+    max-height: 300px;
+    align-self: center;
+    justify-self: center;
+}
+
+.cards .icon{
+    height: 250px;
+    width: 250px;
+    align-self: flex-start;
+    z-index: 2;
+}
+
+.datawrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: x-large;
+    
+}
+
+.datawrapper h1{
+    margin: auto;
+    flex-grow: 1;
+}
+.datawrapper h1 span{
+    align-self: center;
+}
+.datawrapper h5{
+    margin:auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+form label{
+    font-size: 1.5em;
+    margin : 10px 10px;
+}
+form input{
+    border-radius: 5px;
+    width: 100%;
+    height: 2.75em;
+    margin: 10px 10px;
+}
+#temp{
+    display: flex;
+    flex-direction: row;
+}
+#icon{
+    justify-self: center;
+    align-self: center;
+    display: block;
+    width: 100px;
+    height: 100px;
+    filter: invert();
+    transform: scale(1);
+}
+#title{
+    font-size: 2.5em;
+}
+
+

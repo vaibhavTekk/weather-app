@@ -40,9 +40,10 @@ cityForm.addEventListener('submit',(e)=>{
 
     updateCity(citydata)
      .then((data)=>{updateUI(data);
-        
     })
-     .catch((err)=> window.alert(`An Error Occured : ${err}`));
+     .catch((err)=> {window.alert(`An Error Occured : ${err}`);
+                    console.log(err);
+    });
 
     //update ui with city
 });
